@@ -65,3 +65,6 @@ def scrape():
         #Saving data into a csv
         df.to_csv(f'data/{year}.csv', sep='!', index=False)
 
+
+if __name__ == '__main__':
+    scrape()
